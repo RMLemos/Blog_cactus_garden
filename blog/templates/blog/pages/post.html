@@ -44,14 +44,7 @@
 
         {% if post.category %}
           <div class="post-meta-item">
-            <a 
-            class="post-meta-link" 
-            href="{% url 'blog:category' post.category.slug  %}"
-                <span>
-                    {{ post.category.name }}
-                </span>
-            >
-            </a>
+            <a class="post-meta-link" href="{% url 'blog:category' post.category.slug  %}"><span>{{ post.category.name }}</span></a>
           </div>
         {% endif %}
       
