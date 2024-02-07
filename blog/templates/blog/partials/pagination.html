@@ -12,9 +12,7 @@
               <a title="Page 1" aria-label="Page 1" href="?page=1{{ search_url }}">&laquo;</a>
               <a title="Page {{ page_obj.previous_page_number }}" aria-label="Page {{ page_obj.previous_page_number }}" href="?page={{ page_obj.previous_page_number }}{{ search_url }}">&lt;</a>
             {% else %}
-              <span title="Current page" aria-current="page">
-                <i class="fa-solid fa-circle-chevron-up"></i>
-              </span>          
+              <span title="Current page" aria-current="page">&#94;</span>          
             {% endif %}
 
             <span class="current" title="Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}" aria-current="page">
@@ -26,7 +24,7 @@
               <a title="Page {{ page_obj.paginator.num_pages }}" aria-label="Page {{ page_obj.paginator.num_pages }}" href="?page={{ page_obj.paginator.num_pages }}{{ search_url }}">&raquo;</a>
             {% else %}
               <span title="Current page" aria-current="page">
-                <i class="fa-solid fa-circle-chevron-up"></i>
+                <span title="Current page" aria-current="page">&#94;</span>  
               </span>          
             {% endif %}
         </span>
