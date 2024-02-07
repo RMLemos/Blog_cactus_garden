@@ -1,9 +1,9 @@
 ![Contact Board Banner Image](/blog/static/blog/images/githeader.png)
 <h2 align='center'>Cactus Garden Blog</h2>
 
-This project is a functional web applicaction in Python and Django. This project has two applicactions. The first one is an site setup where we can create and manage a pages, posts, tags, and categor, update and/or delete them. There is also the blog frontend. 
+This project is a functional web applicaction in Python and Django. This project has two applicactions. The first one is a site setup where we can create and manage pages, posts, tags, and categories, update and/or delete them. There is also the blog frontend. 
 
-This project was created following the project Blog of the Udemy couse Curso de Python 3 do básico ao avançado - com projetos reais.
+This project was created following the project Blog of the Udemy Curso de Python 3 do básico ao avançado - com projetos reais.
 
 ### Blog Main Page
 ![Contact Board main Image](/blog/static/blog/images/blog.png)
@@ -42,4 +42,5 @@ python manage.py runserver
 + MySQL
 + Python
 + Html
-+ Css
++ CSS
++ Images: unsplash.com
