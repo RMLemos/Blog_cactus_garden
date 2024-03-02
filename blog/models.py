@@ -65,7 +65,7 @@ class Category(models.Model):
 def category_pre_save(signal, instance, sender, **kwargs):
     instance.slug = slugify(instance.name)
 
-signals.pre_save.connect(category_pre_save, sender=Tag)
+signals.pre_save.connect(category_pre_save, sender=Category)
 
 
 class Page(models.Model):
