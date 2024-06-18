@@ -38,7 +38,6 @@ python manage.py runserver
 
 ### Tools
 + Django
-+ Laragon
 + MySQL
 + Python
 + Html
